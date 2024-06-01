@@ -1,0 +1,7 @@
+database/data/*
+
+project/NestFuture/dist
+project/NestFuture/node_modules
+
+server/nginx/static/images/*
+server/nginx/static/video/*
