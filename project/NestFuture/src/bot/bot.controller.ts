@@ -6,8 +6,11 @@ import { Response } from 'express';
 export class BotController {
   constructor(private readonly botService: BotService) { }
 
+  @HttpCode(200)
   @Get()
   getBotInstance() {
-    return this.botService.bot;
+    console.log(this.botService.bot);
+
+    return true;
   }
 }

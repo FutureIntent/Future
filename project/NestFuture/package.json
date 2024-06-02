@@ -74,7 +74,8 @@
     "coverageDirectory": "../coverage",
     "testEnvironment": "node",
     "moduleNameMapper": {
-      "@app/(.*)": "<rootDir>/src/$1"
+      "@app/(.*)": "<rootDir>/src/$1",
+      "@utils/(.*)": "<rootDir>/utils/$1"
     }
   },
   "_moduleAliases": {
